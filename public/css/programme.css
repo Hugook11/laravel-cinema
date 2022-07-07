@@ -1,0 +1,61 @@
+.container#programmePdf {
+    margin-top: 80px;
+}
+
+.container #pictoblanc {
+    position: relative;
+    display: contents;
+    width: 25px;
+    top: -1px;
+}
+
+.container #picto {
+    position: relative;
+    width: 25px;
+    top: -1px;
+}
+
+.imgProgramme {
+    width: 100%;
+}
+
+.container .row .text {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.style4 {
+    font-family: "ClashDisplay-Semibold";
+    font-size: 38px;
+    letter-spacing: 0.05em;
+    color: #1e1e1e;
+}
+
+.style5 {
+    font-family: "ClashDisplay-Medium";
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    color: #e62f32;
+    /*Rouge charte*/
+    border: 3px solid #e62f32;
+    /*Rouge charte*/
+    background-color: white;
+    padding: 8px;
+}
+
+.style5:hover {
+    background-color: #e62f32;
+    color: white;
+    cursor: pointer;
+}
+
+.style5:hover #pictoblanc {
+    display: inline;
+}
+
+.style5:hover #picto {
+    display: none;
+}
+
+

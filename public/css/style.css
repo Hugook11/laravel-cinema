@@ -1,0 +1,163 @@
+div#nav {
+    font-family: UEFA;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+header {
+    background-color: #1E1E1E;
+}
+
+img#imageLogoHeader {
+    margin-left: 120px;
+}
+
+nav.navbar.menu {
+    margin-top: 64px !important;
+    margin-bottom: 80px !important;
+}
+
+.nav-link {
+    font-family: "Clash Display-Regular";
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #1E1E1E !important;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 8px 16px 8px 25px;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link:hover {
+    font-family: "ClashDisplay-Semibold";
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #E62F32 !important;
+    padding: 0px;
+    margin: 8px 16px 8px 16px;
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 25px;
+    right: 0;
+    width: 0;
+    bottom: -10pxpx;
+    background: #e62f32;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after,
+.nav-link:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+div#content {
+    margin-top: 65px;
+}
+
+.lignes {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+hr {
+    opacity: 1 !important;
+}
+.lignes hr {
+    border-bottom: 2px solid #e62f32;
+    color: #e62f32;
+    overflow: visible;
+    width: 400px;
+    display: inline-block;
+    border-radius: 24px;
+}
+
+.lignes img {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    width: 100px;
+    height: auto;
+    width: 65px;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #1E1E1E;
+}
+
+footer p {
+    font-family: "UEFA";
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.form-control {
+    height: auto !important;
+}
+
+footer div#adresse {
+    padding-top: 10px;
+    line-height: 10px;
+}
+
+footer div#logos img {
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
+
+p#copy {
+    font-family: UEFA;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    text-align: center;
+}
+
+input.form-control {
+    border-radius: 0%;
+}
+
+@media screen and (max-width : 1020px) {
+    .lignes hr {
+        width: 167px;
+    }
+
+    .lignes img{
+        width: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}

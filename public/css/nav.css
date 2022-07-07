@@ -1,0 +1,57 @@
+img#imageLogoHeader {
+    margin-left: 120px;
+}
+
+nav.navbar.menu {
+    margin-top: 64px !important;
+    margin-bottom: 80px !important;
+}
+
+.nav-link {
+    font-family: "Clash Display-Regular";
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #1E1E1E !important;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 8px 16px 8px 25px;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link:hover {
+    font-family: "ClashDisplay-Semibold";
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #E62F32 !important;
+    padding: 0px;
+    margin: 8px 16px 8px 16px;
+    /*text-transform: uppercase;
+    text-decoration: underline 2px;
+    /*text-underline-position: under;
+    text-underline-offset: 12px;*/
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 25px;
+    right: 0;
+    width: 0;
+    bottom: -10pxpx;
+    background: #e62f32;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after,
+.nav-link:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}

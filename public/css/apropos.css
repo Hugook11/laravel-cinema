@@ -1,0 +1,18 @@
+.accordion h3 {
+    font-family: "ClashDisplay-Semibold";
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    color: #1E1E1E;
+}
+
+.accordion h3 img {
+    transition: 0.5s;
+}
+
+.collapse-body {
+    font-family: "ClashDisplay-Medium";
+}
+
+.rotate {
+    transform: rotate(-180deg);
+}

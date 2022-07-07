@@ -1,0 +1,34 @@
+@font-face {
+    font-family: ClashDisplay-Medium;
+    src: url(/fonts/ClashDisplay-Medium.ttf?a55835c0e75979b02fcb956fc30bc782);
+}
+
+@font-face {
+    font-family: ClashDisplay-Semibold;
+    src: url(/fonts/ClashDisplay-Semibold.woff2?aafc18ae9600df8496dc380bb3ec4e17);
+}
+
+@font-face {
+    font-family: Clash Display-Regular;
+    src: url(/fonts/ClashDisplay-Regular.woff2?98b52bdf102085f281085afaed0a91ff);
+}
+
+@font-face {
+    font-family: uefa-light;
+    src: url(/fonts/uefasupercup-light.ttf?8b69dfe0b6fbe2f7d2f3f4ac01c5c00f);
+}
+
+@font-face {
+    font-family: uefa-Regular;
+    src: url(/fonts/uefasupercup-regular.ttf?963074e5ef221df81c042b39bc1e8000);
+}
+
+@font-face {
+    font-family: UEFA;
+    src: url(/fonts/uefa.ttf?963074e5ef221df81c042b39bc1e8000);
+}
+
+@font-face {
+    font-family: uefasupercup-bold;
+    src: url(/fonts/uefasupercup-bold.ttf?dd2e981d42f54584476fd8f96369e0f9)
+}

@@ -1,0 +1,38 @@
+body #contenu div {
+    float: left;
+    width: 46%;
+}
+
+body #contenu div:first-of-type {
+    margin-right: 60px;
+}
+
+body #contenu div #texte {
+    font-family: "uefa-Regular";
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 28px;
+    color: #1e1e1e;
+}
+
+body #contenu div img {
+    width: 100%;
+    border: 1px solid #1e1e1e;
+}
+
+body #contenu div img:first-of-type {
+    margin-bottom: 20px;
+}
+
+body #contenu div img:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+body #soustitre {
+    font-family: "Clash Display-Regular";
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #1e1e1e;
+}

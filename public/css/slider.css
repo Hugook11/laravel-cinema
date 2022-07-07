@@ -1,0 +1,100 @@
+.img-slider {
+    min-height: 100% !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item {
+    height: 354px;
+}
+
+.carousel-item hr {
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+}
+
+section {
+    margin-left: 29vw;
+}
+
+.carousel-inner {
+    background-color: #e62f32;
+    color: white;
+}
+
+.slide-bloc-text {
+    padding: 24px;
+}
+
+.carousel-indicators {
+    margin-left: 550px;
+}
+
+.carousel-indicators li {
+    background-color: #e62f32;
+    border: 1px solid white;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.carousel-control-next img,
+.carousel-control-prev img {
+    background-color: rgb(255, 255, 255) !important;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.carousel-control-next img {
+    margin-left: 124px;
+}
+
+.carousel-control-prev img {
+    margin-right: 124px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+.titre-slider-image {
+    font-family: "ClashDisplay-Semibold";
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    padding: 14px;
+}
+
+.titre-slide-text {
+    font-family: "ClashDisplay-Semibold";
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.textfirst-slide-text {
+    font-family: "uefa-light";
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.textsecond-slide-text {
+    font-family: "uefa";
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+@media screen and (max-width : 960px) {
+    section {
+        margin-left: 0;
+    }
+}
